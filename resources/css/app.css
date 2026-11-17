@@ -1,0 +1,14 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+
+@theme {
+    --font-sans: 'Inter', 'Instrument Sans', ui-sans-serif, system-ui, sans-serif;
+    --color-primary-navy: #0B1220;
+    --color-electric-blue: #2563EB;
+    --color-electric-blue-hover: #1D4ED8;
+    --color-cool-silver: #E2E8F0;
+    --color-surface-dark: #0f172a;
+    --color-surface-card: #131d31;
+}
